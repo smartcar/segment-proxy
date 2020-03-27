@@ -56,10 +56,6 @@ func TestSegmentReverseProxy(t *testing.T) {
 	}
 }
 
-func TestHealthEndpoint(t *testing.T) {
-	
-}
-
 func mustParseUrl(raw string) *url.URL {
 	u, err := url.Parse(raw)
 	if err != nil {
